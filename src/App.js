@@ -52,9 +52,10 @@ function App() {
       <div className="flex flex-col justify-center items-center h-screen" style={{backgroundColor: color}}>
           <div className="max-w-sm rounded-xl overflow-hidden shadow-lg bg-white p-4 flex flex-col justify-center items-center ">
               <div className="flex">
-              <span className="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200 border border-r-0 border-gray-300 rounded-l-md my-2 mr-1">
-                HEX
-              </span>
+                  <span
+                      className="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200 border border-r-0 border-gray-300 rounded-l-md my-2 mr-1">
+                    HEX
+                  </span>
                   <input type="text" id="hex-input"
                      className={getCurrentInputClass() + " text-sm rounded-lg block w-full p-2.5 my-2"}
                      name="hexInput"
@@ -64,9 +65,10 @@ function App() {
                   />
               </div>
               <div className="flex">
-              <span className="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200 border border-r-0 border-gray-300 rounded-l-md my-2 mr-1">
-                RGB
-              </span>
+                  <span
+                      className="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200 border border-r-0 border-gray-300 rounded-l-md my-2 mr-1">
+                    RGB
+                  </span>
                   <input type="text" id="rgb input"
                      className={getCurrentInputClass() + " text-sm rounded-lg block w-full p-2.5 my-2"}
                      name="infoInput"
